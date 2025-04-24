@@ -45,6 +45,11 @@ unzip the file unto the Remote Deskstop.
 Please note, I will use the file in this folder to install osTicket and some of the dependencies
 <br />
 <img src="https://i.imgur.com/2bpobH0.png"
+</p>
+<p>
+Next step is to install or enable IIS(Internet information services) which serves as web server in windows with CGI.To locate it,type control panel on search bar and click on programes-
+turn windows features on-IIS-expand it to install CGI-(expand IIS-world wide web services-Application development features-CGI)
+
 
 
 <p>
