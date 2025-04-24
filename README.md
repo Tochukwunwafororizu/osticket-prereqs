@@ -29,7 +29,12 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 - Item 5
 
 <h2>Installation Steps</h2>
+I will start by creating a vitual machine on Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
+I picked the image size(windows 10pro,version 22H2-x64 Gen2 and 8GB memory size.
 
+<p>
+<img src="https://i.imgur.com/50Kcd7I.png"
+  
 <p>
 <img src="https://i.imgur.com/6zxDjLY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
