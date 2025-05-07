@@ -56,14 +56,19 @@ turn windows features on-IIS-expand it to install CGI-(expand IIS-world wide web
 <img src="https://i.imgur.com/UmaOOsZ.png"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+From the osTicket folder we are going to install the web server (PHP and Rewrite Module) in order for our osTicket to work.
+Next is to create a directory c\PHP from the osTicket installation folder and unzip it into the PHP folder.
+Next is to install Vc_redist-x86 and install my sql_5.5.62-win32. We are going to typically setup our sql server and the reason is because the sql sever database is where all our data will be at(User's information, and client's information)
+
+
 </p>
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/DpVaLlt.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<IMG src="https://i.imgur.com/LKMJB0c.png"
 </p>
-<p>
+<IMG src="https://i.imgur.com/obpObnP.png
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 </p>
 <br />
