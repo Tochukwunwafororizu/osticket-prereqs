@@ -88,4 +88,43 @@ Next is to attempt to load osTicket site in the IIS and to do that go to sites- 
 </p>
 <img src="https://i.imgur.com/ZP4zt6D.png"
 
-tyyy
+Next is to enable some features that are not enabled and to do that, go to IIS and make some configurations.
+Go to site-Default site-osTicket and double clickPHP manager and enable the features you want to. 
+I enabled PHP Imap Extension and PHP Intl Extension.
+</p>
+<br />
+<img src="https://i.imgur.com/guQRE3u.png"
+</p>
+I'm going to rename a certain file that osTicket uses to make configuration, so basically inside the webserver "root" in the osTicket folder.
+There's this file called ost-sample config.PHP. We are going to rename it to ost-config PHP
+Then assign permission ost-config php
+Disable inheritance- Remove all
+New permission- everyone- All
+Continue setting up osTicket in the brower(click continue
+Name Helpdesk
+Default email(receives email from customers)
+</p>
+<br />
+<img src="https://i.imgur.com/QHwST5x.png"
+</p>
+<img src="https://i.imgur.com/raBiGRn.png"
+</p>
+<br />
+Next is to crate a new SQL database and call it 'osTicket' from the one we already have in our installation file folder.
+To do that we need to go back to the installation file folder and install Herdi SQL Application and create a new database our osTicket will use.
+<img src="https://i.imgur.com/Ulwqaz1.png"
+</p>
+<br />
+</p>
+<img src="https://i.imgur.com/bFIJIUM.png"
+</p>
+Next is  continue setting up the osTicket in the browser and then install and see what happens
+
+</p>
+<img src="https://i.imgur.com/Z3eiJL4.png"
+</p>
+<br />
+
+
+
+
