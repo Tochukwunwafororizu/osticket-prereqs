@@ -77,9 +77,15 @@ Next is to install Vc_redist-x86 and install my sql_5.5.62-win32. We are going t
 <img src="https://i.imgur.com/obpObnP.png" 
 
 </p>
-Next is  to open internet information services(IIS) and run as admin.
+Next is  to open internet information services(IIS) and run as admin. Register PHP from within IIS(PHP manager and reload it by turning it off and on). 
+Next  install osTicket VI. 15.8 (extract it first and it creates new unziped folder)
+Copy the upload folder into wwwroot(The root of the webserver) and rename the upload folder to osTicket. Reload IIS again by turning the server off and on.
+<img src="https://i.imgur.com/IMsq26D.png"
 </p>
 <br />
-jjjh
 
+Next is to attempt to load osTicket site in the IIS and to do that go to sites- Default- osTicket and click on Browse 80(http) and see what happens.
+</p>
+<img src="https://i.imgur.com/ZP4zt6D.png"
 
+tyyy
