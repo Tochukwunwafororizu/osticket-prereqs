@@ -30,7 +30,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 I will start by creating a vitual machine on Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
-I picked the image size(windows 10pro,version 22H2-x64 Gen2 and 8GB memory size.
+I picked  image size(windows 10pro,version 22H2-x64 Gen2 and 8GB memory size.
 
 <p>
 <img src="https://i.imgur.com/50Kcd7I.png"
