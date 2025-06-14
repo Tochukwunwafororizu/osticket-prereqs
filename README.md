@@ -84,7 +84,7 @@ Copy the upload folder into wwwroot(The root of the webserver) and rename the up
 </p>
 <br />
 
-Next is to attempt to load osTicket site in the IIS and to do that go to sites- Default- osTicket and click on Browse 80(http) and see what happens.
+Next is to attempt to load osTicket site in the IIS and to do that go to sites- Default- osTicket and click on Browse 80(http) and it should work.
 </p>
 <img src="https://i.imgur.com/ZP4zt6D.png"
 
@@ -110,7 +110,7 @@ Default email(receives email from customers)
 <img src="https://i.imgur.com/raBiGRn.png"
 </p>
 <br />
-Next is to crate a new SQL database and call it 'osTicket' from the one we already have in our installation file folder.
+Next is to create a new SQL database and call it 'osTicket' from the one we already have in our installation file folder.
 To do that we need to go back to the installation file folder and install Herdi SQL Application and create a new database our osTicket will use.
 <img src="https://i.imgur.com/Ulwqaz1.png"
 </p>
