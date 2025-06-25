@@ -23,8 +23,8 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
-I will start by creating a vitual machine on Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
-I picked  image size(windows 10pro,version 22H2-x64 Gen2 and 8GB memory size.
+I will start by creating a virtual machine on Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
+I picked  image size(windows 10pro,version 22H2-x64 Gen2) and 8GB memory size.
 
 <p>
 <img src="https://i.imgur.com/50Kcd7I.png"
@@ -34,15 +34,17 @@ I picked  image size(windows 10pro,version 22H2-x64 Gen2 and 8GB memory size.
 </p>
 <p>
 Next step is to log into the VM with Remote Desktop using the public IP address.
-Within the VM (osTicket) download  https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD (osTicket-installation file).
-unzip the file unto the Remote Deskstop.
-Please note, I will use the file in this folder to install osTicket and some of the dependencies
+Within the VM (osTicket), download  https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD (osTicket-installation file).
+unzip the file onto the Remote Deskstop.
+Please note, I will use the file in this folder to install osTicket and some of the dependencies.
 <br />
 <img src="https://i.imgur.com/2bpobH0.png"
 </p>
 <p>
-Next step is to install or enable IIS(Internet information services) which serves as web server in windows with CGI.To locate it,type control panel on search bar and click on programes-> 
-turn windows features on-> IIS-> expand it to install CGI-> (expand IIS-world wide web services-> Application development features-> CGI)
+Next step is to install or enable IIS (Internet Information Services), which serves as a web server in
+Windows with CGI. To locate it, type “Control Panel” in the search bar and click on Programs → Turn
+Windows features on → IIS → expand it to install CGI → (expand IIS > World Wide Web Services > 
+Application Development Features > CGI)
 
 
 
@@ -50,10 +52,12 @@ turn windows features on-> IIS-> expand it to install CGI-> (expand IIS-world wi
 <img src="https://i.imgur.com/UmaOOsZ.png"/>
 </p>
 <p>
-From the osTicket folder we are going to install the web server (PHP and Rewrite Module) in order for our osTicket to work.
-Next is to create a directory c\PHP from the osTicket installation folder and unzip it into the PHP folder.
-Next is to install Vc_redist-x86 and install my sql_5.5.62-win32. We are going to typically setup our sql server and the reason is because the sql sever database is where all our data will be at(User's information, and client's information)
 
+From the osTicket folder, we are going to install the web server (PHP and Rewrite Module) in order for
+our osTicket to work. Next is to create a directory C:\PHP from the osTicket installation folder and unzip
+it into the PHP folder. Next is to install Vc_redist.x86 and install mysql_5.5.62-win32. We are going to
+typically set up our SQL server, and the reason is because the SQL server database is where all our data
+will be at (user's information and client's information).
 
 </p>
 <br />
@@ -71,29 +75,29 @@ Next is to install Vc_redist-x86 and install my sql_5.5.62-win32. We are going t
 <img src="https://i.imgur.com/obpObnP.png" 
 
 </p>
-Next is  to open internet information services(IIS) and run as admin. Register PHP from within IIS(PHP manager and reload it by turning it off and on). 
+Next is  to open internet information services(IIS) and run as admin. Register PHP from within IIS (using PHP Manager) and reload it by turning it off and on). 
 Next  install osTicket VI. 15.8 (extract it first and it creates new unziped folder)
 Copy the upload folder into wwwroot(The root of the webserver) and rename the upload folder to osTicket. Reload IIS again by turning the server off and on.
 <img src="https://i.imgur.com/IMsq26D.png"
 </p>
 <br />
 
-Next is to attempt to load osTicket site in the IIS and to do that go to sites- Default- osTicket and click on Browse 80(http) and it should work.
+Next is to attempt to load osTicket site in the IIS and to do that go to sites > Default > osTicket and click on Browse 80(http) and it should work.
 </p>
 <img src="https://i.imgur.com/ZP4zt6D.png"
 
-Next is to enable some features that are not enabled and to do that, go to IIS and make some configurations.
-Go to site-Default site-osTicket and double clickPHP manager and enable the features you want to. 
-I enabled PHP Imap Extension and PHP Intl Extension.
+Next is to enable some features that are not enabled. To do that, go to IIS and make some configurations.
+Go to site > Default site > osTicket and double click PHP Manager and enable the features you want to. 
+I enabled PHP IMAP Extension and PHP Intl Extension.
 </p>
 <br />
 <img src="https://i.imgur.com/guQRE3u.png"
 </p>
-I'm going to rename a certain file that osTicket uses to make configuration, so basically inside the webserver "root" in the osTicket folder.
-There's this file called ost-sample config.PHP. We are going to rename it to ost-config PHP
-Then assign permission ost-config php
-Disable inheritance- Remove all
-New permission- everyone- All
+I'm going to rename a certain file that osTicket uses to make configuration. So basically, inside the webserver "root" in the osTicket folder,
+There's this file called ost > sample config.PHP. We are going to rename it to ost > config PHP
+Then assign permission ost > config php
+Disable inheritance > Remove all
+New permission > everyone- All
 Continue setting up osTicket in the brower(click continue
 Name Helpdesk
 Default email(receives email from customers)
@@ -112,7 +116,7 @@ To do that we need to go back to the installation file folder and install Herdi 
 </p>
 <img src="https://i.imgur.com/bFIJIUM.png"
 </p>
-Next is  continue setting up the osTicket in the browser and then install and see what happens
+Next is  continue setting up the osTicket in the browser and then install.
 
 </p>
 <img src="https://i.imgur.com/Z3eiJL4.png"
