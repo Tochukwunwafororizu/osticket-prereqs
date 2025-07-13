@@ -27,10 +27,10 @@ I will start by creating a virtual machine on Azure and naming the resource grou
 I picked  image size(windows 10pro,version 22H2-x64 Gen2) and 8GB memory size.
 
 <p>
-<img src="https://i.imgur.com/50Kcd7I.png"
+
   
 <p>
-<img src="https://i.imgur.com/6zxDjLY.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ 
 </p>
 <p>
 Next step is to log into the VM with Remote Desktop using the public IP address.
