@@ -23,7 +23,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 <h2>Installation Steps</h2>
-I will start by creating a virtual machine on Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
+I will start by creating a virtual machine in Microsoft Azure and naming the resource group (osTicket) and naming the virtual machine (os-Ticket-vm)
 I picked  image size(windows 10pro,version 22H2-x64 Gen2) and 8GB memory size.
 
 <p>
@@ -33,7 +33,7 @@ I picked  image size(windows 10pro,version 22H2-x64 Gen2) and 8GB memory size.
  
 </p>
 <p>
-Next step is to log into the VM with Remote Desktop using the public IP address.
+Next step is to log into the VM with Remote Desktop Protocol (RDP) using the public IP address.
 Within the VM (osTicket), download  https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD (osTicket-installation file).
 unzip the file onto the Remote Deskstop.
 Please note, I will use the file in this folder to install osTicket and some of the dependencies.
